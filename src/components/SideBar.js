@@ -1,7 +1,7 @@
 import React from 'react';
-import * as FaIcons from "react-icons/fa";
+// import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
+// import * as IoIcons from "react-icons/io";
 
 export const SideBar = [
     {
@@ -17,7 +17,7 @@ export const SideBar = [
         classN: 'nav-text'
     },
     {
-        titre: 'Skils',
+        titre: 'Skills',
         path: '/skils',
         icon: <AiIcons.AiFillHome />,
         classN: 'nav-text'
