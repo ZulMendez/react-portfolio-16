@@ -13,7 +13,7 @@ const showSidebar = () => setSidebar(!sidebar)
         <Fragment>
             <IconContext.Provider value={{color:'#fff'}}>
             <div className="navbar">
-                <Link to="#" className="menu-bars">
+                <Link to="/" className="menu-bars">
                     <FaIcons.FaBars onClick={showSidebar} />
                 </Link>
             </div>

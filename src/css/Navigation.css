@@ -12,7 +12,7 @@
 }
 .nav-menu {
     background: linear-gradient(#1e422c, #131413); 
-    width: 250px;
+    /* width: 250px; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
-    font-family: monospace;
+    font-family: 'Syne Mono', monospace;
     font-weight: bold;
     text-transform: uppercase;
 }

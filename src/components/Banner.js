@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 // import LightSpeedPage from './LighSpeedPage';
 import '../css/Banner.css';
+import About from './About';
+
 
 const Banner = () => {
 
@@ -11,6 +13,9 @@ const Banner = () => {
                 <video className='video' src="/videos/video5.mp4" autoPlay loop muted />
                 <div className="player-btns">
                 </div>
+            </div>
+            <div>
+                <About/>
             </div>
         </Fragment>
     )
