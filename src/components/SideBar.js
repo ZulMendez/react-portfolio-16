@@ -1,7 +1,9 @@
 import React from 'react';
 // import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-// import * as IoIcons from "react-icons/io";
+import * as IoIcons from "react-icons/io5";
+import * as GiIcons from "react-icons/gi";
+import * as BsIcon from "react-icons/bs";
 
 export const SideBar = [
     {
@@ -13,19 +15,19 @@ export const SideBar = [
     {
         titre: 'About',
         path: '/about',
-        icon: <AiIcons.AiFillHome />,
+        icon: <BsIcon.BsInfoCircleFill />,
         classN: 'nav-text'
     },
     {
         titre: 'Skills',
         path: '/skils',
-        icon: <AiIcons.AiFillHome />,
+        icon: <GiIcons.GiSkills />,
         classN: 'nav-text'
     },
     {
         titre: 'Contact',
         path: '/contact',
-        icon: <AiIcons.AiFillHome />,
+        icon: <IoIcons.IoPersonCircle />,
         classN: 'nav-text'
     }
 ]

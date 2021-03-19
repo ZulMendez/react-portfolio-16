@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Banner from './components/Banner';
 import { MyProvider } from './components/Language';
 import { MyContext } from './components/Language';
+import About from './components/About';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Router>
         <Navigation />
         <Banner/>
+        <About/>
         <Switch>
           <Route exact path='/' component={Home}/>
         </Switch>

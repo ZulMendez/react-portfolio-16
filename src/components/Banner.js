@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react';
-// import LightSpeedPage from './LighSpeedPage';
 import '../css/Banner.css';
-import About from './About';
+import logo from '../img/logonoirpur.png';
+import Zoom from 'react-reveal/Zoom';
+
 
 
 const Banner = () => {
@@ -9,14 +10,12 @@ const Banner = () => {
     return (
         <Fragment>
             <div className='banner'>
-                {/* <LightSpeedPage/> */}
-                <video className='video' src="/videos/video5.mp4" autoPlay loop muted />
-                <div className="player-btns">
-                </div>
+                <video className='video' src="/videos/video8.mp4" autoPlay loop muted />
+                {/* <div className="player-btns"><About/></div> */}
             </div>
-            <div>
-                <About/>
-            </div>
+            <Zoom>{/*Using Zoom Effect*/}
+                <img src={logo} className="logo" alt="logo" />
+            </Zoom>
         </Fragment>
     )
 }

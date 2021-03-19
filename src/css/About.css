@@ -1,0 +1,15 @@
+.infos {
+    display: flex;
+    justify-content: center;
+}
+.about {
+    background-color: rgb(235, 245, 250);
+    width: 400px;
+    height: 400px;
+    margin: 50px 10px;
+    /* transition: 2s ease-in-out; */
+    text-align: center;
+}
+.aboutCont {
+    margin-top: 30%
+}

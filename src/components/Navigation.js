@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
+// import * as AiIcons from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import { SideBar } from './SideBar';
 import '../css/Navigation.css';
@@ -11,7 +11,7 @@ const [sidebar, setSidebar] = useState(false)
 const showSidebar = () => setSidebar(!sidebar)
     return (
         <Fragment>
-            <IconContext.Provider value={{color:'#fff'}}>
+            <IconContext.Provider className="icons" value={{color:'', height:'150vh'}}>
             <div className="navbar">
                 <Link to="/" className="menu-bars">
                     <FaIcons.FaBars onClick={showSidebar} />
@@ -20,8 +20,8 @@ const showSidebar = () => setSidebar(!sidebar)
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu-items' onClick={showSidebar}>
                     <li className='navbar-toggle'>
-                        <Link to='#' className='menu-bars'>
-                            <AiIcons.AiOutlineClose/>
+                        <Link to='/' className='menu-bars'>
+                            {/* <AiIcons.AiOutlineClose/> */}
                         </Link>
                     </li>
                     {SideBar.map((item, i) => {
