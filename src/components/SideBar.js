@@ -13,15 +13,15 @@ export const SideBar = [
         classN: 'nav-text'
     },
     {
-        titre: 'About',
-        path: '/about',
-        icon: <BsIcon.BsInfoCircleFill />,
-        classN: 'nav-text'
-    },
-    {
         titre: 'Skills',
         path: '/skils',
         icon: <GiIcons.GiSkills />,
+        classN: 'nav-text'
+    },
+    {
+        titre: 'My works',
+        path: '/gallery',
+        icon: <BsIcon.BsInfoCircleFill />,
         classN: 'nav-text'
     },
     {

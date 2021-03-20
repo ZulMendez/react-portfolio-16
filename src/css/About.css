@@ -1,15 +1,20 @@
 .infos {
     display: flex;
     justify-content: center;
+    margin: 100px 0 0 0;
 }
 .about {
     background-color: rgb(235, 245, 250);
     width: 400px;
     height: 400px;
-    margin: 50px 10px;
-    /* transition: 2s ease-in-out; */
+    margin: 0px 0px 0px 10px;
     text-align: center;
 }
+img {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+}
 .aboutCont {
-    margin-top: 30%
+    margin-top: 25%
 }

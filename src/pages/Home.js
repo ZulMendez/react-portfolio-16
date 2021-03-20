@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { Fragment } from 'react';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
+import Banner from '../components/Banner';
+import About from '../components/About';
+import Gallery from '../pages/Gallery';
+import Skills from '../pages/Skills'
 
 export default function Home() {
     return (
-        <div className='home'>
-            <h1>Home</h1>
-        </div>
+        <Fragment>
+            <Navigation />
+            <Banner/>
+            <About/>
+            <Skills/>
+            <Gallery/>
+            <Footer/>
+        </Fragment>
     )
-}
+};

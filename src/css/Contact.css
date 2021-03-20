@@ -1,0 +1,112 @@
+.titre2 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.videoCont {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    justify-content: center;
+    position: relative;
+}
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(rgb(162, 216, 229), #0a4872) ; */
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+.contactCont {
+    margin-left: 200px;
+    padding-right: 150px;
+}
+input {
+    border: 1px solid #424242;
+    background-color: White ;
+    margin-right: 10px;
+    padding-right: 150px;
+}
+    
+.text {
+    /* margin-top: 20px; */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 !important;
+}
+    
+input {
+    border: none;
+    background-color: white;
+    padding-right: 490px;
+    box-shadow: 0px 15px 18px -6px black;
+    border-radius: 5px;
+}
+.boite {
+    border: none;
+    border-radius: 5px;
+    /* background-color: transparent; */
+    padding-right: 405px;
+    padding-bottom: 200px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0px 15px 18px -6px black;
+}
+.boutton {
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #1c1c1d;
+    box-shadow: 0px 15px 18px -6px black;
+    text-transform: uppercase;
+}
+
+.map {
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 15px 18px -6px black;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    transition: all .8s ease-in-out;
+}
+.map:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transform: scale(1.01);
+}
+/* .address {
+    position: relative;
+} */
+/* .infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: auto;
+    position: absolute;
+} */
+.footerCont {
+    bottom: 0%;
+    left: 40%;
+    position: absolute;
+    top: 100%;
+    margin-top: 150px;
+}
+
+    

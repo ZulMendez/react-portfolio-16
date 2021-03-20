@@ -20,14 +20,23 @@ class LightSpeedPage extends React.Component {
             </div>
             <div className="aboutAnimat text-center text-white">
               <LightSpeed top opposite cascade collapse when={this.state.show}>
-                  <h2 className="presentat">Je suis web développeur d'origine sudamericaine situé en Belgique; parlant espagnol, français et des bonnes bases en anglais. Personne bien organisée, patiente, avec une grande attention aux détails. Fan de cuisine, musique, films et littérature. Intéressée de travailler sur des projets ambitieux avec des personnes positives</h2>
+                  <div className=''>
+                    <h2 className="presentat"> HTML </h2>
+                    <h2 className="presentat"> CSS </h2>
+                    <h2 className="presentat"> SASS </h2>
+                    <h2 className="presentat"> GIT</h2>
+                    <h2 className="presentat"> JAVASCRIPT </h2>
+                    <h2 className="presentat"> REACT </h2>
+                    <h2 className="presentat"> LARABEL </h2>
+
+                  </div>
               </LightSpeed>
               <button
                   className="btn btn-outline-primary mt-5"
                   type="button"
                   onClick={this.handleClick}
               >
-                  { this.state.show ? 'Hide Message' : 'ABOUT ME' } 
+                  { this.state.show ? 'Hide Message' : 'SKILLS' } 
               </button>
             </div>
         </div>
