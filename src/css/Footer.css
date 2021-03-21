@@ -1,0 +1,33 @@
+.boxFooter {
+    margin-top: 150px;
+}
+.lien {
+    opacity: 0.8;
+    color: rgb(66, 149, 228);
+}
+.textFooter {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 960px) {
+    .lien {
+        font-size: 15px;
+        height: auto;
+        left: 25%;
+        top: 2%;
+    }
+    .textFooter {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .lien {
+        font-size: 15px;
+        height: auto;
+        left: 25%;
+        top: 2%;
+    }
+    .textFooter {
+        font-size: 13px;
+    }
+}

@@ -8,7 +8,7 @@ const ContactPage = () => {
     return(
         <Fragment>
             <div className='videoCont'>
-                <video className='video' src="/videos/video8.mp4" autoPlay loop muted />
+                <video className='videoC' src="/videos/video8.mp4" autoPlay loop muted />
             </div>
             <Contact/>
         </Fragment>

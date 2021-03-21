@@ -20,11 +20,12 @@ class LightSpeedPage extends React.Component {
             </div>
             <div className="aboutAnimat text-center text-white">
               <LightSpeed top opposite cascade collapse when={this.state.show}>
-                  <div className=''>
+                  <div className='skills'>
                     <h2 className="presentat"> HTML </h2>
                     <h2 className="presentat"> CSS </h2>
+                    <h2 className="presentat"> GIT </h2>
                     <h2 className="presentat"> SASS </h2>
-                    <h2 className="presentat"> GIT</h2>
+                    <h2 className="presentat"> BOOTSTRAP </h2>
                     <h2 className="presentat"> JAVASCRIPT </h2>
                     <h2 className="presentat"> REACT </h2>
                     <h2 className="presentat"> LARABEL </h2>
@@ -32,11 +33,11 @@ class LightSpeedPage extends React.Component {
                   </div>
               </LightSpeed>
               <button
-                  className="btn btn-outline-primary mt-5"
+                  className="btnSkills btn-outline-white mt-5"
                   type="button"
                   onClick={this.handleClick}
               >
-                  { this.state.show ? 'Hide Message' : 'SKILLS' } 
+                  { this.state.show ? 'BACK' : 'SKILLS' } 
               </button>
             </div>
         </div>
