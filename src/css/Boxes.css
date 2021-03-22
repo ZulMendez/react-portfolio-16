@@ -40,9 +40,20 @@
     text-align: center;
     text-transform: uppercase;
 }
+.btnGallery:hover {
+    font-weight: bold;
+}
 .link {
-    text-decoration: none;
-    font-size: 20px;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    font-size: 25px;
+    color: rgb(66, 149, 228);
+    transition: 0.7s ease-in-out;
+}
+.link:hover {
+    text-decoration: none !important;
+    font-weight: bold;
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 960px) {

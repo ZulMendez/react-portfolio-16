@@ -19,7 +19,7 @@
 }
 .nav-menu {
     background: linear-gradient(#0c0c0c, #000000); 
-    height: 100vh;
+    height: 156.5vh;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -38,7 +38,7 @@
 .nav-text {
     display: flex;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 90px 0px;
     list-style: none;
     height: 60px;
     color: rgb(241, 241, 241);
@@ -56,6 +56,7 @@
     /* font-weight: bold; */
     text-transform: uppercase;
     margin: 0px 10px;
+    font-family: 'Recursive', sans-serif;
 }
 .nav-text a:hover {
     background-color: rgb(243, 240, 240);
@@ -67,8 +68,8 @@
     width: 100%;
     list-style: none;
     text-decoration: none;
-    padding: 200px 0px;
-    margin: 0px 50px;
+    padding: 300px 0px;
+    margin: 0px 20px;
 }
 .nav-toggle {
     background-color: black;
