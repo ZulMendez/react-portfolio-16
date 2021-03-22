@@ -19,7 +19,7 @@
 }
 .nav-menu {
     background: linear-gradient(#0c0c0c, #000000); 
-    height: 156.5vh;
+    height: 147.5vh;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -164,10 +164,10 @@ p {
         justify-content: flex-start;
         align-items: center;
     }
-    p {
-        /* margin: 0 0 10px 10px;
-        padding: 10px 10px; */
-    }
+    /* p {
+        margin: 0 0 10px 10px;
+        padding: 10px 10px;
+    } */
     .icons {
         color: white;
         width: 50px;
@@ -247,10 +247,10 @@ p {
         justify-content: flex-start;
         align-items: center;
     }
-    p {
-        /* margin: 0 0 10px 10px;
-        padding: 10px 10px; */
-    }
+    /* p {
+        margin: 0 0 10px 10px;
+        padding: 10px 10px;
+    } */
     .icons {
         color: white;
         width: 50px;

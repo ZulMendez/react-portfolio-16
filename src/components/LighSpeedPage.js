@@ -28,7 +28,7 @@ class LightSpeedPage extends React.Component {
                     <h2 className="presentat"> BOOTSTRAP </h2>
                     <h2 className="presentat"> JAVASCRIPT </h2>
                     <h2 className="presentat"> REACT </h2>
-                    <h2 className="presentat"> LARABEL </h2>
+                    <h2 className="presentat"> LARAVEL </h2>
 
                   </div>
               </LightSpeed>

@@ -49,6 +49,7 @@
     font-size: 25px;
     color: rgb(66, 149, 228);
     transition: 0.7s ease-in-out;
+    
 }
 .link:hover {
     text-decoration: none !important;
