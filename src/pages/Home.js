@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import About from '../components/About';
 import Gallery from '../pages/Gallery';
-import Skills from '../pages/Skills'
+import Skills from '../pages/Skills';
 
 export default function Home() {
     return (

@@ -10,25 +10,29 @@ export const SideBar = [
         titre: 'Home',
         path: '/',
         icon: <AiIcons.AiFillHome />,
-        classN: 'nav-text'
+        classN: 'nav-text', 
+        id: 1
     },
     {
         titre: 'Skills',
-        path: '/skils',
+        path: '/skills',
         icon: <GiIcons.GiSkills />,
-        classN: 'nav-text'
+        classN: 'nav-text',
+        id: 2
     },
     {
         titre: 'My works',
         path: '/gallery',
         icon: <BsIcon.BsInfoCircleFill />,
-        classN: 'nav-text'
+        classN: 'nav-text',
+        id: 3
     },
     {
         titre: 'Contact',
         path: '/contact',
         icon: <IoIcons.IoPersonCircle />,
-        classN: 'nav-text'
+        classN: 'nav-text',
+        id: 4
     }
 ]
 

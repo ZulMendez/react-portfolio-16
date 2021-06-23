@@ -1,7 +1,19 @@
-// You can live edit this code below the import statements
-import React from 'react';
+import React, { Fragment } from 'react';
 import LightSpeed from 'react-reveal';
 import '../css/LighSpeed.css';
+import html from '../img/html.png';
+import css from '../img/css.png';
+import sass from '../img/sass.png';
+import bootstrap from '../img/bootstrap-logo.png';
+import git from '../img/git.png';
+import github from '../img/github.png';
+import js from '../img/Js.png';
+import nodejs from '../img/nodejs.png';
+import react from '../img/reactjs.png';
+import laravel from '../img/laravel.png';
+import bash from '../img/bash.png';
+import trello from '../img/trello.jpg';
+
 
 class LightSpeedPage extends React.Component {
   constructor(props) {
@@ -14,6 +26,7 @@ class LightSpeedPage extends React.Component {
   }
   render() {
     return (
+      <Fragment>
         <div className="cont">
             <div>
               <video className='videoAbout' src="/videos/video8.mp4" autoPlay loop muted />
@@ -21,15 +34,18 @@ class LightSpeedPage extends React.Component {
             <div className="aboutAnimat text-center text-white">
               <LightSpeed top opposite cascade collapse when={this.state.show}>
                   <div className='skills'>
-                    <h2 className="presentat"> HTML </h2>
-                    <h2 className="presentat"> CSS </h2>
-                    <h2 className="presentat"> GIT </h2>
-                    <h2 className="presentat"> SASS </h2>
-                    <h2 className="presentat"> BOOTSTRAP </h2>
-                    <h2 className="presentat"> JAVASCRIPT </h2>
-                    <h2 className="presentat"> REACT </h2>
-                    <h2 className="presentat"> LARAVEL </h2>
-
+                  <img data-aos='fade-right' src={html} className="img"/>
+                  <img data-aos='fade-right' src={css} className="img"/>
+                  <img data-aos='fade-right' src={sass} className="img"/>
+                  <img data-aos='fade-right' src={bootstrap} className="img"/>
+                  <img data-aos='fade-right' src={git} className="img"/>
+                  <img data-aos='fade-right' src={github} className="img"/>
+                  <img data-aos='fade-right' src={js} className="img"/>
+                  <img data-aos='fade-right' src={nodejs} className="img"/>
+                  <img data-aos='fade-right' src={react} className="img"/>
+                  <img data-aos='fade-right' src={laravel} className="img"/>
+                  <img data-aos='fade-right' src={bash} className="img"/>
+                  <img data-aos='fade-right' src={trello} className="img"/>
                   </div>
               </LightSpeed>
               <button
@@ -41,6 +57,7 @@ class LightSpeedPage extends React.Component {
               </button>
             </div>
         </div>
+      </Fragment>
     );
   }
 }

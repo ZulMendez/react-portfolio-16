@@ -2,15 +2,14 @@ import React, { Fragment } from 'react';
 import {Link} from 'react-router-dom';
 import '../css/Contact.css';
 import Footer from '../components/Footer';
-import Navigation from './Navigation';
-
+// import Navigation from './Navigation';
+import * as AiIcons from "react-icons/ai";
 
 const Contact = () => {
     return(
         <Fragment>
             <div>
                 <div className="titreCont">
-                    <Navigation/>
                     <h2 className="titre2">CONTACT</h2>
                 </div>
                     <Link to='/contact'>

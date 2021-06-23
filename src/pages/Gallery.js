@@ -1,12 +1,10 @@
 import React, { Fragment } from 'react';
 import Scroll from '../components/Scroll';
-import Navigation from '../components/Navigation';
 import {Link} from 'react-router-dom';
 
 export default function Gallery() {
     return (
         <Fragment>
-            <Navigation/>
             <Scroll/>
             <Link to="/contact" >
             <div className="lienCont text-center">

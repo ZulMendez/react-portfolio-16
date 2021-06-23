@@ -24,6 +24,7 @@ class About extends Component {
                 <p>Je suis web développeur d'origine sudamericaine situé en Belgique; parlant espagnol, français et ayant des bonnes bases en anglais.
                 Personne bien organisée, patiente, avec une grande attention aux détails.
                 </p>
+                <a className="btn mt-5 bouton" href="" target="_blank">MON CV</a>
               </div>
             </Zoom>
           </div>

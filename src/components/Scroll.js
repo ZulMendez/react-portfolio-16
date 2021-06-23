@@ -9,6 +9,7 @@ import victory from '../img/victory2.jpg';
 import asian from '../img/victory1.jpg';
 import photosen from '../img/photosen.jpg';
 import {Link} from 'react-router-dom';
+import Navigation from '../components/Navigation';
 
 const Scroll = () => {
     useEffect(() => {
@@ -17,11 +18,12 @@ const Scroll = () => {
     return (
         <Fragment>
             <h2 className="titreGallery text-center">MY WORKS</h2>
-            <Link to='/'>
+            <Navigation/>
+            <Link to='/gallery'>
                 <div className="grids">
                     <div className="d-flex flex-column text-center">
                         <img data-aos='fade-right' src={emporium} className="box"/>
-                        <a className="link" href="https://github.com/ZulMendez">view project</a>
+                        <a className="link text-decoration-none" href="https://github.com/ZulMendez">view project</a>
                     </div>
                     <div className="d-flex flex-column text-center">
                         <img data-aos='fade-right' src={emporiumB} className="box"/>
