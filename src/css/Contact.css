@@ -39,7 +39,6 @@ input {
     margin-right: 10px;
     padding-right: 150px;
 }
-    
 .text {
     /* margin-top: 20px; */
     color: white;
@@ -93,6 +92,9 @@ input {
     filter: none;
     -webkit-filter: grayscale(0);
     transform: scale(1.01);
+}
+.close {
+    margin: 10px;
 }
 /* .address {
     position: relative;

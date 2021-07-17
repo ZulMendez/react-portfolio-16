@@ -60,7 +60,7 @@
 @media screen and (max-width: 960px) {
     .btnSkills {
         padding: 10px;
-        font-size: 35px;
+        font-size: 30px;
     }
     .btnSkills:hover {
         background-color: rgb(102, 188, 223);
@@ -70,11 +70,23 @@
     .presentat {
         font-size: 25px;
     }
+    .skills {
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img {
+        width: 100px;
+        height: 100px;
+    }
 }
 @media only screen and (max-width: 600px) {
     .btnSkills {
         padding: 10px;
-        font-size: 30px;
+        font-size: 20px;
     }
     .btnSkills:hover {
         background-color: rgb(102, 188, 223);
@@ -84,4 +96,17 @@
     .presentat {
         font-size: 30px;
     }
+    .skills {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img {
+        width: 80px;
+        height: 80px;
+    }
+
 } 

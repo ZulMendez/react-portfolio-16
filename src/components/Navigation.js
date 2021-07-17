@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { SideBar } from './SideBar';
 import '../css/Navigation.css';
 import { IconContext } from 'react-icons';
-import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
+// import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
 
 function Navigation() {
 const [sidebar, setSidebar] = useState(false)

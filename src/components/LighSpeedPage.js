@@ -34,18 +34,18 @@ class LightSpeedPage extends React.Component {
             <div className="aboutAnimat text-center text-white">
               <LightSpeed top opposite cascade collapse when={this.state.show}>
                   <div className='skills'>
-                  <img data-aos='fade-right' src={html} className="img"/>
-                  <img data-aos='fade-right' src={css} className="img"/>
-                  <img data-aos='fade-right' src={sass} className="img"/>
-                  <img data-aos='fade-right' src={bootstrap} className="img"/>
-                  <img data-aos='fade-right' src={git} className="img"/>
-                  <img data-aos='fade-right' src={github} className="img"/>
-                  <img data-aos='fade-right' src={js} className="img"/>
-                  <img data-aos='fade-right' src={nodejs} className="img"/>
-                  <img data-aos='fade-right' src={react} className="img"/>
-                  <img data-aos='fade-right' src={laravel} className="img"/>
-                  <img data-aos='fade-right' src={bash} className="img"/>
-                  <img data-aos='fade-right' src={trello} className="img"/>
+                    <img data-aos='fade-right' src={html} className="img"/>
+                    <img data-aos='fade-right' src={css} className="img"/>
+                    <img data-aos='fade-right' src={sass} className="img"/>
+                    <img data-aos='fade-right' src={bootstrap} className="img"/>
+                    <img data-aos='fade-right' src={git} className="img"/>
+                    <img data-aos='fade-right' src={github} className="img"/>
+                    <img data-aos='fade-right' src={js} className="img"/>
+                    <img data-aos='fade-right' src={nodejs} className="img"/>
+                    <img data-aos='fade-right' src={react} className="img"/>
+                    <img data-aos='fade-right' src={laravel} className="img"/>
+                    <img data-aos='fade-right' src={bash} className="img"/>
+                    <img data-aos='fade-right' src={trello} className="img"/>
                   </div>
               </LightSpeed>
               <button

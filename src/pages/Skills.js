@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom';
 export default function Skills() {
     return (
         <Fragment>
-            <Link to='/skills'>
+            {/* <Link to='/skills'> */}
                 <LightSpeedPage/>
-            </Link>
+            {/* </Link> */}
         </Fragment>
     )
 };

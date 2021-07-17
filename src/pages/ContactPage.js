@@ -10,12 +10,12 @@ const ContactPage = () => {
             <div className='videoCont'>
                 <video className='videoC' src="/videos/video8.mp4" autoPlay loop muted />
             </div>
-            <Contact/>
-            <div className="mb-5">
+            <div className="close">
                 <Link to='/' className='menu-bars'>
                     <AiIcons.AiOutlineClose/>
                 </Link>
             </div>
+            <Contact/>
         </Fragment>
     )
 }
