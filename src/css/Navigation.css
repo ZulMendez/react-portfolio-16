@@ -175,6 +175,7 @@ p {
         align-items: center;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .menu-bars {
         font-size: 3rem;

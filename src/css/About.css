@@ -24,6 +24,7 @@
 .aboutCont {
     margin-top: 25%
 }
+
 @media screen and (max-width: 960px) {
     .infos {
         display: block;

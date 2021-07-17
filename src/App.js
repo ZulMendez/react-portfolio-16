@@ -8,7 +8,6 @@ import Contact from './pages/ContactPage';
 import { MyProvider } from './components/Language';
 import { MyContext } from './components/Language';
 
-
 function App() {
   return (
     <MyContext.Consumer>

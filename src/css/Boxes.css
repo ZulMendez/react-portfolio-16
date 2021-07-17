@@ -68,6 +68,7 @@
         font-size: 20px;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .titreGallery {
         font-size: 30px;
@@ -76,7 +77,6 @@
         display: block;
     }
     .box {
-        /* width: 350px; */
         margin: 50px 10px 10px 12px;
     }
     .btnGallery {
